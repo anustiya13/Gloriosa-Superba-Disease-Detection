@@ -1,0 +1,36 @@
+{
+  "crop_validation": {
+    "train": {
+      "gloriosa_superba": 51,
+      "non_gloriosa": 51
+    },
+    "val": {
+      "gloriosa_superba": 11,
+      "non_gloriosa": 11
+    },
+    "test": {
+      "gloriosa_superba": 12,
+      "non_gloriosa": 12
+    }
+  },
+  "disease_detection": {
+    "train": {
+      "Healthy": 4,
+      "Leaf_Blight": 47
+    },
+    "val": {
+      "Healthy": 1,
+      "Leaf_Blight": 10
+    },
+    "test": {
+      "Healthy": 1,
+      "Leaf_Blight": 11
+    }
+  },
+  "split_ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "random_seed": 42
+}
